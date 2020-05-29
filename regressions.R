@@ -60,9 +60,9 @@ for (i in 1:length(c19ts)) {
     subset(temp, subset = (deaths >= 10))  # Drop rows til 10 deaths
 
   
-  # Start from the 7th day because we use trailing 7 day moving average
+  # Skip if less than 25 observations
   
-  if (nrow(temp) > 7) {
+  if (nrow(temp) > 24) {
     temp$ma_confirmed <-
       rollmeanr(temp$confirmed, 7, na.pad = TRUE)  # 7 Day MA(moving average) of cases
     temp$diff_ma_confirmed <-
