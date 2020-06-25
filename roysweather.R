@@ -42,8 +42,8 @@ weather <-
   filter(weather, ELEMENT == "TMAX" |
            ELEMENT == "TMIN" | ELEMENT == "PRCP")                  # Unpack weather, filter out all but Temp and Precipitation
 
-weather <-                                                        
-  weather[!(weather$ELEMENT == "PRCP" & weather$VALUE == 0), ]     # eliminate null  precipitation entries
+# weather <-                                                        
+#   weather[!(weather$ELEMENT == "PRCP" & weather$VALUE == 0), ]     # eliminate null  precipitation entries
 
 codes <- fipscodes[, -c(3:4)]                                      # fipscodes is a dataset included in rnoaa - maps fips to counties
 colnames(codes) = c("STATE", "COUNTY", "FIPS")

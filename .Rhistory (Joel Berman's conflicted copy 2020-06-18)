@@ -1,0 +1,512 @@
+View(RoysDataPrcp)
+View(RoysDataPrcp)
+View(RoysDataTemp)
+View(weather)
+source('~/Dropbox/E-value Team/COVID19/CountryRegressions/roysweather.R')
+View(RoysData)
+summary <- data.frame(summary(p1.fit)$coefficients)
+View(summary)
+(summary(p1.fit)$coefficients)
+(summary(as.charaacter(p1.fit)$coefficients))
+(summary(as.character(p1.fit)$coefficients))
+as.character(summary(p2.fit)$coefficients)
+add_row(math,as.character(summary(p2.fit)$coefficients))
+math <- data.frame(summary(p1.fit)$coefficients)
+add_row(math,as.character(summary(p2.fit)$coefficients))
+as.character(summary(p2.fit)$coefficients)
+as.character(summary(p1.fit)$coefficients)
+(summary(as.character(p1.fit)$coefficients))
+(summary(p1.fit)$coefficients)
+summary(p1.fit)$coefficients)
+math <- data.frame(summary(p1.fit)$coefficients)
+math
+add_row(math,as.character(summary(p2.fit)$coefficients))
+add_row(math,summary(p2.fit)$coefficients)
+summary(p2.fit)$coefficients)
+summary(p2.fit)$coefficients
+as.number(summary(p2.fit)$coefficients)
+as.number(summary(p2.fit)$coefficients)
+as.numeric(summary(p2.fit)$coefficients)
+add_row(math,as.numeric(summary(p2.fit)$coefficients))
+summary(p2.fit)$coefficients
+summary(p2.fit)$coefficients[1]
+summary(p2.fit)$coefficients[2]
+add_row(math,summary(p2.fit)$coefficients[1])
+add_row(math,as.data.frame(summary(p2.fit)$coefficients))
+math
+colnames(math)
+colnames(as.data.frame(summary(p2.fit)$coefficients))
+tibble(summary(p1.fit)$coefficients)
+tibble(summary(p2.fit)$coefficients)
+math <- tibble(summary(p2.fit)$coefficients)
+math
+math <- add_row(,math,tibble(summary(p2.fit)$coefficients))
+math <- add_row(math,tibble(summary(p2.fit)$coefficients))
+math
+math <- tibble(summary(p1.fit)$coefficients)
+math <- add_row(math,tibble(summary(p2.fit)$coefficients))
+math <- data.frame(summary(p1.fit)$coefficients)
+math <- data.frame(summary(p1.fit)$coefficients)
+math <- merge(math,data.frame(summary(p2.fit)$coefficients))
+math <- merge(math,data.frame(summary(p2.fit)$coefficients))
+View(math)
+math1 <- data.frame(summary(p1.fit)$coefficients)
+math2 <- data.frame(summary(p2.fit)$coefficients)
+math3 <- data.frame(summary(p3.fit)$coefficients)
+View(math1)
+View(math2)
+View(math3)
+merge(math1,math2)
+math <- rbind(math1,math2)
+math <- rbinf(math,math3)
+math <- rbind(math1,math2)
+math <- rbind(math,math3)
+math
+math1 <- cbind(data.frame(summary(p1.fit)$coefficients,data.frame(summary(p1.fit)$r.squared)))
+mTH1
+math1
+math1 <- cbind(data.frame(summary(p1.fit)$coefficients,data.frame(summary(p1.fit)$r.squared)))
+math2 <- cbind(data.frame(summary(p2.fit)$coefficients,data.frame(summary(p2.fit)$r.squared)))
+math3 <- cbind(data.frame(summary(p3.fit)$coefficients,data.frame(summary(p3.fit)$r.squared)))
+math <- rbind(math1,math2)
+math <- NULL
+math <- rbind(math1,math2)
+rm(math)
+math <- rbind(math1,math2)
+math1
+math2
+rbind(math1,math2)
+rbind(math1,math3)
+rbind(math1,math3)
+rownames(math1)
+colnames(math1)
+colnames(math2)
+colnames(math3)
+colnames(math4)
+colnames(math1) <- cn
+cn <- c("BCoef", "Std Error","t-Statistic", "p-Value", "R^2" )
+colnames(math1) <- cn
+colnames(math2) <- cn
+colnames(math3) <- cn
+math <- rbind(math1,math2)
+math <- rbind(math1,math2)
+math <- rbind(math,math3)
+math
+summary(results_coef_ci)
+(results_coef_ci)
+results_coef_ci$R
+results_coef_ci$t0
+results_coef_ci$call
+results_coef_ci$bca
+names(results_coef_ci$bca)
+results_coef_ci$bca
+results_coef_ci
+results_coef_ci[,1]
+results_coef_ci[2]
+results_coef_ci[3]
+results_coef_ci[4]
+math5 <- data.frame(results_coef_ci[4])
+math5
+math6
+math6 <- data.frame(results_rsq_ci[4])
+math6
+math6 <- rbind(math5,math6)
+math6
+math6[,c(1,4:5)]
+text2 <- rbind(math5[,c(1,4:5)],math6[,c(1,4:5)])
+text2
+math5 <- data.frame(results_coef_ci[4])
+math6 <- data.frame(results_rsq_ci[4])
+text2 <- rbind(math5[,c(1,4:5)],math6[,c(1,4:5)])
+text2
+math1 <- cbind(data.frame(summary(p1.fit)$coefficients,data.frame(summary(p1.fit)$r.squared)))
+math2 <- cbind(data.frame(summary(p2.fit)$coefficients,data.frame(summary(p2.fit)$r.squared)))
+math3 <- cbind(data.frame(summary(p3.fit)$coefficients,data.frame(summary(p3.fit)$r.squared)))
+cn1 <- c("BCoef", "Std Error","t-Statistic", "p-Value", "R^2" )
+cn2 <- c("Confidence", "Lower", "Upper")
+colnames(math1) <- cn1
+colnames(math2) <- cn1
+colnames(math3) <- cn1
+math4 <- rbind(math1,math2)
+text1 <- rbind(math3,math4)
+math5 <- data.frame(results_coef_ci[4])
+math6 <- data.frame(results_rsq_ci[4])
+text2 <- rbind(math5[,c(1,4:5)],math6[,c(1,4:5)])
+text1
+text2
+text2
+cn2 <- c("Confidence", "Lower", "Upper")
+colnames(text2) <- cn2
+cn2
+text2
+results_coef_ci[4]
+math4 <- rbind(math2,math1)
+text1 <- rbind(math3,math4)
+text1
+math4 <- rbind(math1,math2)
+text1 <- rbind(math4,math3)
+text1
+math1 <- cbind(data.frame(summary(p1.fit)$coefficients,data.frame(summary(p1.fit)$r.squared)))
+math2 <- cbind(data.frame(summary(p2.fit)$coefficients,data.frame(summary(p2.fit)$r.squared)))
+math3 <- cbind(data.frame(summary(p3.fit)$coefficients,data.frame(summary(p3.fit)$r.squared)))
+cn1 <- c("BCoef", "Std Error","t-Statistic", "p-Value", "R^2" )
+cn2 <- c("Confidence", "Lower", "Upper")
+rn1 <- c("Log of Diff", "Diff of Logs", "Differences")
+rn2 <- C("Bootstrapped ln(Diff) Coef", "Bootstrapped ln(Diff) R")
+colnames(math1) <- cn1
+colnames(math2) <- cn1
+colnames(math3) <- cn1
+math4 <- rbind(math1,math2)
+tab1  <- rbind(math4,math3)
+rn2 <- C("Bootstrapped ln(Diff) Coef", "Bootstrapped ln(Diff) R^2")
+rn2 <- c("Bootstrapped ln(Diff) Coef", "Bootstrapped ln(Diff) R^2")
+colnames(math1) <- cn1
+colnames(math2) <- cn1
+colnames(math3) <- cn1
+math4 <- rbind(math1,math2)
+tab1  <- rbind(math4,math3)
+rownames(tab1) <- rn1
+math5 <- data.frame(results_coef_ci[4])
+math6 <- data.frame(results_rsq_ci[4])
+text2 <- rbind(math5[,c(1,4:5)],math6[,c(1,4:5)])
+colnames(text2) <- cn2
+rownames(text2) <- rn2
+text1
+text2
+p4 <- plotCI(results_coef_ci$t0,li = results_coef_ci$bca[4],ui = results_coef_ci$bca[5]) #confidence plot coef
+p5 <- plotCI(results_rsq_ci$t0,li = results_rsq_ci$bca[4],ui = results_rsq_ci$bca[5]) #confidence plot rsq
+source('~/EconoMedRx Dropbox/Joel Berman/E-value Team/COVID19/CountryRegressions/regressions1.R')
+# NOT RUN {
+# show comparison with boxplot
+data(state)
+plotmeans(state.area ~ state.region)
+library(gplots)
+install.packages("gplots")
+library(gplots)
+# NOT RUN {
+# show comparison with boxplot
+data(state)
+plotmeans(state.area ~ state.region)
+# show some color and mean labels
+plotmeans(state.area ~ state.region,
+mean.labels=TRUE, digits=-3,
+col="red", connect=FALSE)
+# more complicated example showing how to show an interaction
+data(esoph)
+par(las=2,                        # use perpendicular axis labels
+mar=c(10.1,4.1,4.1,2.1),      # create enough space for long x labels
+mgp=c(8,1,0)                  # move x axis legend down to avoid overlap
+)
+plotmeans(ncases/ncontrols ~ interaction(agegp , alcgp, sep ="   "),
+connect=list(1:6,7:12,13:18,19:24),
+barwidth=2,
+col="dark green",
+data=esoph,
+xlab="Age Group and Alcohol Consumption",
+ylab="# Cases / # Controls",
+main=c("Fraction of Cases for by Age and Alcohol Consumption",
+"Ile-et-Vilaine Esophageal Cancer Study")
+)
+library(gplots)
+y<-runif(10)
+err<-runif(10)
+plotCI(1:10,y,err,main="Basic plotCI")
+plotCI(1:5,y,err,main="Basic plotCI")
+y<-runif(5)
+err<-runif(5)
+plotCI(1:5,y,err,main="Basic plotCI")
+plotCI(1,y,err,main="Basic plotCI")
+plotCI(1:1,y,err,main="Basic plotCI")
+library(gplots)
+y<-runif(2)
+err<-runif(2)
+plotCI(1:2,y,err,main="Basic plotCI")
+plotCI(1:2,y,err,2*err,lwd=2,col="red",scol="blue",
+main="Add colors to the points and error bars")
+err.x<-runif(10)
+err.y<-runif(10)
+plotCI(1:10,y,err.y,pt.bg=par("bg"),pch=21,xlim=c(0,11),
+main="plotCI with extra space on the x axis")
+plotCI(1:10,y,err.y,pt.bg=par("bg"),pch=21,xlim=c(0,11),
+main="plotCI with extra space on the x axis")
+plotCI(1:10,y,err.x,pt.bg=par("bg"),pch=21,err="x",add=TRUE)
+mtext("for adding horizontal error bars",3,0.5)
+data(warpbreaks)
+attach(warpbreaks)
+wmeans<-by(breaks,tension,mean)
+wsd<-by(breaks,tension,sd)
+## note that barplot() returns the midpoints of the bars, which plotCI
+##  uses as x-coordinates
+plotCI(barplot(wmeans,col="gray",ylim=c(0,max(wmeans+wsd))),wmeans,wsd,add=TRUE)
+## using labels instead of points
+labs<-sample(LETTERS,replace=TRUE,size=10)
+plotCI(1:10,y,err,pch=NA,gap=0.02,main="plotCI with labels at points")
+text(1:10,y,labs)
+library(gplots)
+y<-runif(10)
+err<-runif(10)
+plotCI(1:2,y,err,main="Basic plotCI")
+plotCI(1:2,y,err,2*err,lwd=2,col="red",scol="blue",
+main="Add colors to the points and error bars")
+err.x<-runif(10)
+err.y<-runif(10)
+plotCI(1:10,y,err.y,pt.bg=par("bg"),pch=21,xlim=c(0,11),
+main="plotCI with extra space on the x axis")
+plotCI(1:10,y,err.x,pt.bg=par("bg"),pch=21,err="x",add=TRUE)
+mtext("for adding horizontal error bars",3,0.5)
+data(warpbreaks)
+attach(warpbreaks)
+wmeans<-by(breaks,tension,mean)
+wsd<-by(breaks,tension,sd)
+## note that barplot() returns the midpoints of the bars, which plotCI
+##  uses as x-coordinates
+plotCI(barplot(wmeans,col="gray",ylim=c(0,max(wmeans+wsd))),wmeans,wsd,add=TRUE)
+## using labels instead of points
+labs<-sample(LETTERS,replace=TRUE,size=10)
+plotCI(1:10,y,err,pch=NA,gap=0.02,main="plotCI with labels at points")
+text(1:10,y,labs)
+=
+=
+par(mfrow=c(2,1)) # to stack the charts on column
+upperlimit = c(10,12,8,14)
+lowerlimit = c(5,9,4,7)
+mean = c(8,10,6,12)
+df = data.frame(cbind(upperlimit,lowerlimit,mean))
+plot(df$mean, ylim = c(0,30), xlim = c(1,4))
+install.packages("plotrix")
+require(plotrix)
+plotCI(df$mean,y=NULL, uiw=df$upperlimit-df$mean, liw=df$mean-df$lowerlimit, err="y",      pch=20, slty=3, scol = "black", add=TRUE)
+upperlimit_2 = upperlimit*1.5
+lowerlimit_2 = lowerlimit*0.8
+mean_2 = upperlimit_2-lowerlimit_2
+df_2 = data.frame(cbind(upperlimit_2,lowerlimit_2,mean_2))
+plot(df$mean_2, ylim = c(0,30), xlim = c(1,4))
+plotCI(df_2$mean_2,y=NULL, uiw=df_2$upperlimit_2-df_2$mean_2, liw=df_2$mean_2-   df_2$lowerlimit_2, err="y", pch=20, slty=3, scol = "black", add=TRUE)
+rm(upperlimit,lowerlimit,mean,df,upperlimit_2,lowerlimit_2,mean_2,df_2) #remove the objects stored from workspace
+require(plotrix)
+plotCI(df$mean,y=NULL, uiw=df$upperlimit-df$mean, liw=df$mean-df$lowerlimit, err="y",      pch=20, slty=3, scol = "black", add=TRUE)
+upperlimit_2 = upperlimit*1.5
+lowerlimit_2 = lowerlimit*0.8
+mean_2 = upperlimit_2-lowerlimit_2
+df_2 = data.frame(cbind(upperlimit_2,lowerlimit_2,mean_2))
+plot(df$mean_2, ylim = c(0,30), xlim = c(1,4))
+plotCI(df_2$mean_2,y=NULL, uiw=df_2$upperlimit_2-df_2$mean_2, liw=df_2$mean_2-   df_2$lowerlimit_2, err="y", pch=20, slty=3, scol = "black", add=TRUE)
+par(mfrow=c(2,1)) # to stack the charts on column
+upperlimit = c(10,12,8,14)
+lowerlimit = c(5,9,4,7)
+mean = c(8,10,6,12)
+df = data.frame(cbind(upperlimit,lowerlimit,mean))
+plot(df$mean, ylim = c(0,30), xlim = c(1,4))
+require(plotrix)
+plotCI(df$mean,y=NULL, uiw=df$upperlimit-df$mean, liw=df$mean-df$lowerlimit, err="y",      pch=20, slty=3, scol = "black", add=TRUE)
+plotCI(df$mean,y=NULL, uiw=df$upperlimit-df$mean, liw=df$mean-df$lowerlimit, err="y",      pch=20, slty=3, scol = "black", add=TRUE)
+upperlimit = c(10,12,8,14)
+lowerlimit = c(5,9,4,7)
+mean = c(8,10,6,12)
+df = data.frame(cbind(upperlimit,lowerlimit,mean))
+plot(df$mean, ylim = c(0,30), xlim = c(1,4))
+require(plotrix)
+plotCI(df$mean,y=NULL, uiw=df$upperlimit-df$mean, liw=df$mean-df$lowerlimit, err="y",      pch=20, slty=3, scol = "black", add=TRUE)
+upperlimit_2 = upperlimit*1.5
+lowerlimit_2 = lowerlimit*0.8
+mean_2 = upperlimit_2-lowerlimit_2
+df_2 = data.frame(cbind(upperlimit_2,lowerlimit_2,mean_2))
+plot(df$mean_2, ylim = c(0,30), xlim = c(1,4))
+plotCI(df_2$mean_2,y=NULL, uiw=df_2$upperlimit_2-df_2$mean_2, liw=df_2$mean_2-   df_2$lowerlimit_2, err="y", pch=20, slty=3, scol = "black", add=TRUE)
+rm(upperlimit,lowerlimit,mean,df,upperlimit_2,lowerlimit_2,mean_2,df_2) #remove the objects stored from workspace
+upperlimit = c(10,12,8,14)
+lowerlimit = c(5,9,4,7)
+mean = c(8,10,6,12)
+df = data.frame(cbind(upperlimit,lowerlimit,mean))
+plot(df$mean, ylim = c(0,30), xlim = c(1,4))
+require(plotrix)
+plotCI(df$mean,y=NULL, uiw=df$upperlimit-df$mean, liw=df$mean-df$lowerlimit, err="y",      pch=20, slty=3, scol = "black", add=TRUE)
+upperlimit_2 = upperlimit*1.5
+lowerlimit_2 = lowerlimit*0.8
+mean_2 = upperlimit_2-lowerlimit_2
+df_2 = data.frame(cbind(upperlimit_2,lowerlimit_2,mean_2))
+plot(df$mean_2, ylim = c(0,30), xlim = c(1,4))
+plotCI(df_2$mean_2,y=NULL, uiw=df_2$upperlimit_2-df_2$mean_2, liw=df_2$mean_2-   df_2$lowerlimit_2, err="y", pch=20, slty=3, scol = "black", add=TRUE)
+df_2 = data.frame(cbind(upperlimit_2,lowerlimit_2,mean_2))
+plot(df$mean_2, ylim = c(0,30), xlim = c(1,4))
+plotCI(df_2$mean_2,y=NULL, uiw=df_2$upperlimit_2-df_2$mean_2, liw=df_2$mean_2-   df_2$lowerlimit_2, err="y", pch=20, slty=3, scol = "black", add=TRUE)
+ci.plot(lm.object,
+xlim=range(data[, x.name]),
+newdata,
+conf.level=.95,
+data=model.frame(lm.object),
+newfit,
+ylim,
+pch=19,
+lty=c(1,3,4,2),
+lwd=2,
+main.cex=1,
+main=list(paste(100*conf.level,
+"% confidence and prediction intervals for ",
+substitute(lm.object), sep=""), cex=main.cex), ...
+)
+install.packages("HH")
+library(ci.plot)
+library(ci.plot)
+library(HH)
+ci.plot(lm.object,
+xlim=range(data[, x.name]),
+newdata,
+conf.level=.95,
+data=model.frame(lm.object),
+newfit,
+ylim,
+pch=19,
+lty=c(1,3,4,2),
+lwd=2,
+main.cex=1,
+main=list(paste(100*conf.level,
+"% confidence and prediction intervals for ",
+substitute(lm.object), sep=""), cex=main.cex), ...
+)
+ci.plot(lm.object,
+xlim=range(data[, x.name]),
+newdata,
+conf.level=.95,
+data=model.frame(lm.object),
+newfit,
+ylim,
+pch=19,
+lty=c(1,3,4,2),
+lwd=2,
+main.cex=1,
+main=list(paste(100*conf.level,
+"% confidence and prediction intervals for ",
+substitute(lm.object), sep=""), cex=main.cex)
+)
+ci.plot(p1.fit,
+xlim=range(data[, x.name]),
+newdata,
+conf.level=.95,
+data=model.frame(lm.object),
+newfit,
+ylim,
+pch=19,
+lty=c(1,3,4,2),
+lwd=2,
+main.cex=1,
+main=list(paste(100*conf.level,
+"% confidence and prediction intervals for ",
+substitute(lm.object), sep=""), cex=main.cex)
+)
+ci.plot(p1.fit,
+xlim=range(data[, p1.name]),
+newdata,
+conf.level=.95,
+data=model.frame(lm.object),
+newfit,
+ylim,
+pch=19,
+lty=c(1,3,4,2),
+lwd=2,
+main.cex=1,
+main=list(paste(100*conf.level,
+"% confidence and prediction intervals for ",
+substitute(lm.object), sep=""), cex=main.cex)
+)
+ci.plot(p1.fit,
+# xlim=range(data[, p1.name]),
+newdata,
+conf.level=.95,
+data=model.frame(lm.object),
+newfit,
+ylim,
+pch=19,
+lty=c(1,3,4,2),
+lwd=2,
+main.cex=1,
+main=list(paste(100*conf.level,
+"% confidence and prediction intervals for ",
+substitute(lm.object), sep=""), cex=main.cex)
+)
+ci.plot(p1.fit,
+# xlim=range(data[, p1.name]),
+#   newdata,
+conf.level=.95,
+data=model.frame(lm.object),
+newfit,
+ylim,
+pch=19,
+lty=c(1,3,4,2),
+lwd=2,
+main.cex=1,
+main=list(paste(100*conf.level,
+"% confidence and prediction intervals for ",
+substitute(lm.object), sep=""), cex=main.cex)
+)
+ci.plot(p1.fit,
+# xlim=range(data[, p1.name]),
+#   newdata,
+conf.level=.95,
+data=model.frame(lm.object),
+#    newfit,
+#   ylim,
+pch=19,
+lty=c(1,3,4,2),
+lwd=2,
+main.cex=1,
+main=list(paste(100*conf.level,
+"% confidence and prediction intervals for ",
+substitute(lm.object), sep=""), cex=main.cex)
+)
+ci.plot(p1.fit,
+# xlim=range(data[, p1.name]),
+#   newdata,
+data=model.frame(lm.object),
+#    newfit,
+#   ylim,
+lty=c(1,3,4,2),
+main.cex=1,
+ci.plot(p1.fit,
+ci.plot(p1.fit,
+ci.plot(p1.fit)
+ci.plot(p1.fit)
+install.packages("poppr")
+library(popr)
+diversity_ci(
+tab,
+n = 1000,
+n.boot = 1L,
+ci = 95,
+total = TRUE,
+rarefy = FALSE,
+n.rare = 10,
+plot = TRUE,
+raw = TRUE,
+center = TRUE,
+...
+)
+library(popr)
+library(poppr)
+diversity_ci(
+tab,
+n = 1000,
+n.boot = 1L,
+ci = 95,
+total = TRUE,
+rarefy = FALSE,
+n.rare = 10,
+plot = TRUE,
+raw = TRUE,
+center = TRUE,
+...
+)
+diversity_ci(
+tab,
+n = 1000,
+n.boot = 1L,
+ci = 95,
+total = TRUE,
+rarefy = FALSE,
+n.rare = 10,
+plot = TRUE,
+raw = TRUE,
+center = TRUE
+)
+boxplot(1,2,3,4,5)
+boxplot(1,2,3,4)

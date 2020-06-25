@@ -140,7 +140,30 @@ for (i in 1:(length(c19ts))) {
           style = "all",
           font.size = "normalsize",
           type = "text",
-          omit.stat = c("adj.rsq","n"),omit.table.layout = "n"
+          omit.stat = c(
+            "adj.rsq",
+            "aic",
+            "bic",
+            "chi2",
+            "f",
+            "ll",
+            "logrank",
+            "lr",
+            "max.rsq",
+            "n",
+            "null.dev",
+            "res.dev",
+            "rsq",
+            "scale",
+            "theta",
+            "ser",
+            "sigma2",
+            "ubre",
+            "wald"
+          ),
+          omit.table.layout = "n",
+          omit.summary.stat = c("max", "min", "median", "mean", "n", "p25", "p75", "sd"),
+          single.row = TRUE
         ),
         "\n"
       ))
