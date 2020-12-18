@@ -60,17 +60,17 @@ rsq_boot <- function(data,ind){
 }
 
 #########################################################################################
-### Funtion to plor regression                                                        ###
+### Function to plot regression                                                        ###
 #########################################################################################
 
 
-plot.countries <- function(x = C19DF) {
+plot.countries <- function(bigtable = C19DF) {
   if (dir.exists("output")) { }
   else {dir.create("output")}
-  countries <- unique(x$country)
+  countries <- unique(bigtable$country)
   for (i in seq_along(countries)) {
-    
-    plot <- x[countries == countries[i],] %>%
+    item <- C19DF[(C19DF$country == countries[i]),]
+    plot <- item %>%
       ggplot(aes(x = ln_total_cases, y = ln_new_ma_cases )) + geom_point() +
       geom_smooth(method="lm", formula = y ~ 0 + x)
     
@@ -82,6 +82,18 @@ plot.countries <- function(x = C19DF) {
     print(plot)
   }
 }
+
+
+#########################################################################################
+###           PROGRAM START                                                           ###
+#########################################################################################
+
+
+
+
+
+
+
 
 #
 # The following lines read the JHS data for all countries  - I just grab it all, but easy to take a subset
